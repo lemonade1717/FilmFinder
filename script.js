@@ -2,6 +2,7 @@ const movieForm = document.querySelector(".movieForm");
 const movieInput = document.querySelector(".movieInput");
 const card = document.querySelector(".card");
 const apiKey = "ffcde258";
+const proxyUrl = "https://cors-anywhere.herokuapp.com/";
 
 movieForm.addEventListener("submit", async event => {
 
@@ -25,7 +26,7 @@ movieForm.addEventListener("submit", async event => {
 
 async function getMovieData(name) {
 
-    const apiUrl = `https://www.omdbapi.com/?t=${name}&apikey=${apiKey}`;
+    const apiUrl = `${proxyUrl}https://www.omdbapi.com/?t=${name}&apikey=${apiKey}`;
 
     const response = await fetch(apiUrl);
 
