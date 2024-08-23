@@ -25,12 +25,12 @@ movieForm.addEventListener("submit", async event => {
 
 async function getMovieData(name) {
 
-    const apiUrl = `http://www.omdbapi.com/?t=${name}&apikey=${apiKey}`;
+    const apiUrl = `https://www.omdbapi.com/?t=${name}&apikey=${apiKey}`;
 
     const response = await fetch(apiUrl);
 
     if(!response.ok) {
-        throw new Error(`Could not fetch weather data`);
+        throw new Error(`Could not fetch movie data`);
     }
 
     console.log(response);
