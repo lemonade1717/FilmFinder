@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.movieForm {
+    margin: 20px;
+}
+.movieInput {
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin: 10px;
+    width: 300px;
+}
+button {
+    padding: 10px;
+    font-size: 2rem;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    width: 170px;
+    background-color: hsl(130, 80%, 55%);
+    color: white;
+}
+button:hover {
+    background-color: hsl(130, 80%, 45%);
+}
+button:active {
+    background-color: hsl(130, 80%, 40%);
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
+    min-width: 300px;
+    max-width: 615px;
+    background-color: hsl(240, 100%, 75%);
+    color: white;
+}
+.movie {
+    display: flex;
+    flex-direction: row;
+}
+img {
+    width: 200px;
+    height: 300px;
+    box-shadow: 2px 2px 3px hsla(0, 0%, 0%, 0.5);
+}
+.movieInfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5px;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    height: 300px;
+}
+.movieInfo p {
+    font-size: 0.7rem;
+    max-width: 240px;
+}
+
+
