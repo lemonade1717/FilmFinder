@@ -69,4 +69,90 @@ button:active {
     max-width: 240px;
 }
 
+@media (max-width: 578px) {
+    .movieInput {
+        width: 230px;
+        font-size: 1rem;
+    }
+    button {
+        width: 100px;
+        font-size: 1rem;
+    }
+    .card {
+        min-width: 230px;
+        max-width: 545px;
+        padding: 25px;
+    }
+    .poster {
+        width: 130px;
+        height: 230px;
+    }
+    .movieInfo {
+        height: 230px;
+    }
+    .movieInfo p {
+        font-size: 0.55rem;
+        max-width: 170px;
+    }
+    .movieInfo h2 {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 438px) {
+    .movieInput {
+        width: 160px;
+        font-size: 0.5rem;
+    }
+    button {
+        width: 60px;
+        font-size: 0.5rem;
+    }
+    .card {
+        min-width: 115px;
+        max-width: 445px;
+    }
+    .poster {
+        width: 60px;
+        height: 120px;
+    }
+    .movieInfo {
+        height: 120px;
+    }
+    .movieInfo p {
+        font-size: 0.38rem;
+        max-width: 170px;
+    }
+    .movieInfo h2 {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 341px) {
+    .poster {
+        width: 60px;
+        height: 120px;
+    }
+    .card {
+        min-width: 45px;
+        max-width: 345px;
+    }
+    .movieInfo {
+        height: 120px;
+    }
+    .movieInfo p {
+        font-size: 0.35rem;
+        max-width: 170px;
+    }
+    .movieInfo h2 {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 329px) {
+    .movieInput {
+        margin: 5px;
+    }
+}
+
 
