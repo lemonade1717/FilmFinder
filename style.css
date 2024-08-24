@@ -84,75 +84,88 @@ button:active {
         padding: 25px;
     }
     .poster {
-        width: 130px;
-        height: 230px;
+        width: 150px;
+        height: 250px;
     }
     .movieInfo {
-        height: 230px;
+        height: 250px;
     }
     .movieInfo p {
-        font-size: 0.55rem;
+        font-size: 0.65rem;
         max-width: 170px;
     }
     .movieInfo h2 {
-        font-size: 0.85rem;
+        font-size: 0.95rem;
     }
 }
 
 @media (max-width: 438px) {
     .movieInput {
         width: 160px;
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
     button {
-        width: 60px;
-        font-size: 0.5rem;
+        width: 100px;
+        font-size: 1rem;
     }
     .card {
         min-width: 115px;
         max-width: 445px;
     }
     .poster {
-        width: 60px;
-        height: 120px;
+        width: 110px;
+        height: 210px;
     }
     .movieInfo {
-        height: 120px;
+        height: 210px;
     }
     .movieInfo p {
-        font-size: 0.38rem;
+        font-size: 0.6rem;
         max-width: 170px;
     }
     .movieInfo h2 {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 }
 
-@media (max-width: 341px) {
+@media (max-width: 368px) {
+    button {
+        width: 79px;
+        font-size: 0.8rem;
+    }
+    .movieInput {
+        width: 139px;
+        font-size: 0.8rem;
+    }    
+}
+@media (max-width: 327px) {
+    .movieInfo p{
+        font-size: 0.55rem;
+    }
+    .movieInfo h2 {
+        font-size: 0.85rem;
+    }
+    button {
+        width: 75px;
+        font-size: 0.70rem;
+        margin: 0;
+    }
+    .movieInput {
+        width: 135px;
+        font-size: 0.70rem;
+        margin: 0;
+    }
     .poster {
-        width: 60px;
-        height: 120px;
+        width: 100px;
+        height: 200px;
+    }
+    .movieInfo {
+        height: 200px;
     }
     .card {
-        min-width: 45px;
-        max-width: 345px;
-    }
-    .movieInfo {
-        height: 120px;
-    }
-    .movieInfo p {
-        font-size: 0.35rem;
-        max-width: 170px;
-    }
-    .movieInfo h2 {
-        font-size: 0.7rem;
+        max-width: 250px;
     }
 }
 
-@media (max-width: 329px) {
-    .movieInput {
-        margin: 5px;
-    }
-}
 
 
